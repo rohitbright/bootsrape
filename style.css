@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&family=Montserrat:wght@100;300;400;500&family=Poppins:ital,wght@0,400;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm--font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+
+body {
+    font-family: var(--sm--font);
+}
+
+.bg-primary {
+    background-color: var(--pink) !important;
+}
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0);
+}
+
+.btn:not(.nav-btns button) {
+    background-color: #fff;
+    color: rgba(85, 85, 85);
+    border-radius: 25px;
+border: solid 1px black;
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.btn:not(.nav-btns button):hover {
+    background-color: #e5345b;
+    color: #fff;
+}
+
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover {
+    color: #e5345b;
+}
+
+red .nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0);
+}
+
+#header {
+    background-image: url(/imges/banner-img-1.jpg);
+    background-size: cover;
+    
+
+}
+
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-inner.btn {
+    background-color: #fff;
+}
+
+.carousel-itembtn:hover {
+    border-color: #e5345b;
+}
+.title h2::before{
+    position:absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #e5345b;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.active-filter-btn{background-color: #e5345b;
+color: #fff;
+border-color: #e5345b;
+border-radius: 0px ;}
+
+.collection-img span{
+
+    top: 20px ;
+right: 20px ;
+width: 46px;
+height: 46px; border-radius: 50px;
+}
