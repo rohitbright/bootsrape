@@ -9,6 +9,7 @@ li {
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    padding-left: 40px;
     text-transform: capitalize;
 }
 
@@ -18,20 +19,12 @@ ul {
     margin-left: 145px;
 }
 
-header {
 
-    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
-}
 
-a {
-    text-decoration: none;
-    color: #00000099;
-}
-
-img,
-svg {
+img, svg {
     vertical-align: middle;
-    width: 20%;
+    width: 45%;
+    margin-left: 63px;
 }
 
 /*header*/
@@ -212,11 +205,12 @@ button.to {
 }
 
 
-    
+
 
 section.the.best {
     background: black;
 }
+
 h1 {
     padding: 88px 0px 75px;
     text-align: center;
@@ -228,6 +222,105 @@ h1 {
     width: 100%;
     padding: 53px 0px;
 }
+
 .box-9 {
     text-align: center;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media (max-width:590px) {
+    .navbar-brand {
+
+        display: contents;
+    }
+
+    i.fa.fa-bars {
+        color: black;
+    }
+
+    button.navbar-toggler {
+        margin-top: 28px;
+        background-color: none;
+        box-shadow: none;
+    }
+
+    .box-1 {
+        width: 50%;
+        display: inline-block;
+        padding-top: 0px
+    }
+
+    h1.your {
+        font-size: 18px;
+        font-weight: 700;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .box-2 {
+        padding-top: 0px;
+    }
+
+    h1.your {
+
+        padding: 0px;
+        border-bottom: none;
+        /* margin-bottom: 5px; */
+    }
+
+    li {
+        font-size: 18px;
+        padding-top: 0px;
+        padding-bottom: 2px;
+    }
+
+    p.it {
+        font-size: 17px;
+        padding-top: 0px;
+    }
+
+    p.it {
+        font-size: 17px;
+        padding-top: 0px;
+    }
+
+    button {
+        padding: 3px 8px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .box-4 h1 {
+        font-size: 25px;
+        margin-bottom: 0px;
+        font-weight: 500;
+           padding-top: 9px;
+    }
+
+    section.the {
+        padding: 100px 0px 0px;
+        
+    }
+    
+.box-4 p {
+    
+    font-size: 19px;
+}
+.box-5 {
+    padding-top: 22px
+}
+.box-6 h4 {
+    padding-top: 52px;
+    padding-left: 10px;
+ 
+}
+img, svg {
+    width: 45%;
+    margin-left: 0px;
+}
 }
